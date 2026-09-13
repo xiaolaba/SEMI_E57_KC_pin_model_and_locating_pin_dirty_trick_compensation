@@ -11,6 +11,8 @@ screen shot, ![KC_pin_compensation.JPG](KC_pin_compensation.JPG)
 
 ### 3D file, not available, uses LISP to build on the fly
 LISP file, [KCPin.lsp](KCPin.lsp)   
+![KCpin_LISP_3D_model.JPG](KCpin_LISP_3D_model.JPG)    
+
 Note, no 100% match to the real design, just demo to build 3D model  
 ```
 (defun c:SEMI_KCPin ( / oldCmd p0 rSphere hPin rFlange hFlange rHole ptBase ptFlange ptSphere ptCutter eSphere eFlange eHole eCutter)
